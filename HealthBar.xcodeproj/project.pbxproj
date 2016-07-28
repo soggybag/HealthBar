@@ -8,24 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		D87716891D4AB721005807F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87716881D4AB721005807F9 /* AppDelegate.swift */; };
-		D877168B1D4AB721005807F9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D877168A1D4AB721005807F9 /* GameScene.sks */; };
 		D877168D1D4AB721005807F9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877168C1D4AB721005807F9 /* GameScene.swift */; };
 		D877168F1D4AB721005807F9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D877168E1D4AB721005807F9 /* GameViewController.swift */; };
 		D87716921D4AB721005807F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87716901D4AB721005807F9 /* Main.storyboard */; };
 		D87716941D4AB721005807F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D87716931D4AB721005807F9 /* Assets.xcassets */; };
 		D87716971D4AB721005807F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D87716951D4AB721005807F9 /* LaunchScreen.storyboard */; };
+		D87716A21D4AB761005807F9 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = D877169E1D4AB761005807F9 /* a.png */; };
+		D87716A31D4AB761005807F9 /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = D877169F1D4AB761005807F9 /* b.png */; };
+		D87716A41D4AB761005807F9 /* c.png in Resources */ = {isa = PBXBuildFile; fileRef = D87716A01D4AB761005807F9 /* c.png */; };
+		D87716A51D4AB761005807F9 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = D87716A11D4AB761005807F9 /* d.png */; };
+		D87716A71D4AB769005807F9 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87716A61D4AB769005807F9 /* Monster.swift */; };
+		D87716A91D4AB85A005807F9 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87716A81D4AB85A005807F9 /* HealthBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D87716851D4AB721005807F9 /* HealthBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HealthBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D87716881D4AB721005807F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D877168A1D4AB721005807F9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D877168C1D4AB721005807F9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D877168E1D4AB721005807F9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D87716911D4AB721005807F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D87716931D4AB721005807F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D87716961D4AB721005807F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D87716981D4AB721005807F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D877169E1D4AB761005807F9 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		D877169F1D4AB761005807F9 /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		D87716A01D4AB761005807F9 /* c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = c.png; sourceTree = "<group>"; };
+		D87716A11D4AB761005807F9 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
+		D87716A61D4AB769005807F9 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		D87716A81D4AB85A005807F9 /* HealthBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +54,10 @@
 			children = (
 				D87716871D4AB721005807F9 /* HealthBar */,
 				D87716861D4AB721005807F9 /* Products */,
+				D877169E1D4AB761005807F9 /* a.png */,
+				D877169F1D4AB761005807F9 /* b.png */,
+				D87716A01D4AB761005807F9 /* c.png */,
+				D87716A11D4AB761005807F9 /* d.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,9 +73,10 @@
 			isa = PBXGroup;
 			children = (
 				D87716881D4AB721005807F9 /* AppDelegate.swift */,
-				D877168A1D4AB721005807F9 /* GameScene.sks */,
 				D877168C1D4AB721005807F9 /* GameScene.swift */,
+				D87716A81D4AB85A005807F9 /* HealthBar.swift */,
 				D877168E1D4AB721005807F9 /* GameViewController.swift */,
+				D87716A61D4AB769005807F9 /* Monster.swift */,
 				D87716901D4AB721005807F9 /* Main.storyboard */,
 				D87716931D4AB721005807F9 /* Assets.xcassets */,
 				D87716951D4AB721005807F9 /* LaunchScreen.storyboard */,
@@ -128,9 +143,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D877168B1D4AB721005807F9 /* GameScene.sks in Resources */,
 				D87716971D4AB721005807F9 /* LaunchScreen.storyboard in Resources */,
+				D87716A31D4AB761005807F9 /* b.png in Resources */,
+				D87716A21D4AB761005807F9 /* a.png in Resources */,
+				D87716A41D4AB761005807F9 /* c.png in Resources */,
 				D87716941D4AB721005807F9 /* Assets.xcassets in Resources */,
+				D87716A51D4AB761005807F9 /* d.png in Resources */,
 				D87716921D4AB721005807F9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -142,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87716A71D4AB769005807F9 /* Monster.swift in Sources */,
+				D87716A91D4AB85A005807F9 /* HealthBar.swift in Sources */,
 				D877168D1D4AB721005807F9 /* GameScene.swift in Sources */,
 				D877168F1D4AB721005807F9 /* GameViewController.swift in Sources */,
 				D87716891D4AB721005807F9 /* AppDelegate.swift in Sources */,
