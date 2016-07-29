@@ -14,15 +14,15 @@ class GameScene: SKScene {
         
         let m1 = Monster(imageNamed: "a")
         addChild(m1)
-        m1.position = CGPoint(x: 100, y: 100)
+        m1.position = CGPoint(x: 80, y: view.frame.size.height / 2)
         
         let m2 = Monster(imageNamed: "b")
         addChild(m2)
-        m2.position = CGPoint(x: 180, y: 100)
+        m2.position = CGPoint(x: view.frame.size.width / 2, y: view.frame.size.height / 2)
         
         let m3 = Monster(imageNamed: "c")
         addChild(m3)
-        m3.position = CGPoint(x: 280, y: 100)
+        m3.position = CGPoint(x: view.frame.size.width - 80, y: view.frame.size.height / 2)
         
     }
     
@@ -35,6 +35,9 @@ class GameScene: SKScene {
         if node.name == "monster" {
             let monster = node as! Monster
             monster.dealDamage(10)
+            let points = PointsDisplay(points: "100")
+            points.position = monster.position
+            addChild(points)
         }
     }
    

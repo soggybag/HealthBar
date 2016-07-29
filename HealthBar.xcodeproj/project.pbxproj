@@ -19,6 +19,7 @@
 		D87716A51D4AB761005807F9 /* d.png in Resources */ = {isa = PBXBuildFile; fileRef = D87716A11D4AB761005807F9 /* d.png */; };
 		D87716A71D4AB769005807F9 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87716A61D4AB769005807F9 /* Monster.swift */; };
 		D87716A91D4AB85A005807F9 /* HealthBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87716A81D4AB85A005807F9 /* HealthBar.swift */; };
+		D87716CD1D4AF0BF005807F9 /* PointsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87716CC1D4AF0BF005807F9 /* PointsDisplay.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		D87716A11D4AB761005807F9 /* d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = d.png; sourceTree = "<group>"; };
 		D87716A61D4AB769005807F9 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 		D87716A81D4AB85A005807F9 /* HealthBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthBar.swift; sourceTree = "<group>"; };
+		D87716CC1D4AF0BF005807F9 /* PointsDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsDisplay.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				D87716881D4AB721005807F9 /* AppDelegate.swift */,
 				D877168C1D4AB721005807F9 /* GameScene.swift */,
+				D87716CC1D4AF0BF005807F9 /* PointsDisplay.swift */,
 				D87716A81D4AB85A005807F9 /* HealthBar.swift */,
 				D877168E1D4AB721005807F9 /* GameViewController.swift */,
 				D87716A61D4AB769005807F9 /* Monster.swift */,
@@ -165,6 +168,7 @@
 				D877168D1D4AB721005807F9 /* GameScene.swift in Sources */,
 				D877168F1D4AB721005807F9 /* GameViewController.swift in Sources */,
 				D87716891D4AB721005807F9 /* AppDelegate.swift in Sources */,
+				D87716CD1D4AF0BF005807F9 /* PointsDisplay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +318,7 @@
 				D877169D1D4AB721005807F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

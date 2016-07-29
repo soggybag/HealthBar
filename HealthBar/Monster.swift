@@ -11,13 +11,25 @@ import SpriteKit
 class Monster: SKSpriteNode {
     
     var healthBar: HealthBar!
-    var health: CGFloat = 100
     let totalHealth: CGFloat = 100
+    var health: CGFloat = 100 {
+        didSet {
+            healthBar.value = health / totalHealth
+        }
+    }
     
     
     func dealDamage(damage: CGFloat) {
         health -= damage
-        healthBar.value = health / totalHealth
+        if health <= 0 {
+            destroy()
+        }
+    }
+    
+    
+    
+    func destroy() {
+        removeFromParent()
     }
     
     
@@ -33,7 +45,7 @@ class Monster: SKSpriteNode {
         addChild(healthBar)
         healthBar.zPosition = 37
         healthBar.position.x = size.width / -2
-        healthBar.position.y = size.height + 15
+        healthBar.position.y = 80
     }
     
     required init?(coder aDecoder: NSCoder) {
